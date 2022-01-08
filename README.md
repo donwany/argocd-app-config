@@ -1,11 +1,5 @@
 ### ArgoCD gitops demo
 
-Originally from Nana Janashia
-
-Original gitlab repo: https://gitlab.com/nanuchi/argocd-app-config.git
-YouTube Video: https://www.youtube.com/watch?v=MeU5_k9ssrs
-
-
 #### Commands
 
 ```bash
@@ -27,9 +21,9 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 #### Links
 
-* Config repo: [https://gitlab.com/nanuchi/argocd-app-config](https://gitlab.com/nanuchi/argocd-app-config)
+* Config repo: [https://gitlab.com/donwany/argocd-app-config](https://gitlab.com/donwany/argocd-app-config)
 
-* Docker repo: [https://hub.docker.com/repository/docker/nanajanashia/argocd-app](https://hub.docker.com/repository/docker/nanajanashia/argocd-app)
+* Docker repo: [https://hub.docker.com/repository/docker/worldbosskafka/flask](https://hub.docker.com/repository/docker/worldbosskafka/flask)
 
 * Install ArgoCD: [https://argo-cd.readthedocs.io/en/stable/getting_started/#1-install-argo-cd](https://argo-cd.readthedocs.io/en/stable/getting_started/#1-install-argo-cd)
 
