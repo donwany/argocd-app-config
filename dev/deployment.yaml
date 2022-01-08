@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: myapp
-  replicas: 10
+  replicas: 5
   template:
     metadata:
       labels:
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: worldbosskafka/flask:v1
+        image: worldbosskafka/flask:v2
         ports:
         - containerPort: 8080
